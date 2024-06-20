@@ -1,0 +1,72 @@
+html,body{
+    padding: 0;
+    margin: 0;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.outer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: plum;
+    text-align: center;
+}
+
+.inner{
+    width: 20%;
+    height: 50px;
+}
+
+input{
+    height: 30px;
+    border-radius: 10px;
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 5px;
+}
+
+h1{
+    color: white;
+    font-size: 2.5em;
+    padding-bottom: 10px;
+    border-bottom: 2px solid white;
+}
+
+button {
+    color: #fff !important;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: #2979FF;
+    padding: 20px;
+    border-radius: 5px;
+    display: inline-block;
+    border: none;
+    width: 100%;
+    margin-top: 10px;
+}
+
+button:focus{
+    overflow: none;
+}
+
+.in{
+    margin: 10px;
+    
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .outer {
+      height: 100%;
+    }
+  
+    .inner {
+      width: 90%;
+    }
+  
+  }
+  
